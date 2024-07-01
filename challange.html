@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margin dan padding</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <a href="index.html" class="outside_link">HOME</a>
+      <a href="index.html" class="outside_link">PRODUCT</a>
+      <a href="index.html" class="outside_link">GALLERY</a>
+      <a href="index.html" class="outside_link">BLOG</a>
+      <a href="index.html" class="outside_link">MY INVENTORY</a>
+    </div>
+
+    <div class="base_box">
+      <div class="column left">
+        <img
+          src="./images/developer.png"
+          style="max-width: 50%"
+          alt="Developer Image"
+        />
+      </div>
+      <div id="percobaan" class="column center">
+        <h3>Nama Anda</h3>
+        <h5>Frontend Engineer</h5>
+        <input type="button" value="Kontak" style="background-color: blue; color: white;">
+        <input type="button" value="Resume" style="color: green;">
+      </div>
+      <div class="column right">
+        <table>
+          <tr>
+            <td><b>Availability</b></td>
+            <td>&nbsp;</td>
+            <td>Full time</td>
+          </tr>
+          <tr>
+            <td><b>Usia</b></td>
+            <td>&nbsp;</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td><b>Lokasi</b></td>
+            <td>&nbsp;</td>
+            <td>Jakarta, Indonesia</td>
+          </tr>
+          <tr>
+            <td><b>Pengalaman</b></td>
+            <td>&nbsp;</td>
+            <td>2 tahun</td>
+          </tr>
+          <tr>
+            <td><b>Email</b></td>
+            <td>&nbsp;</td>
+            <td>skyline@gmail.com</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="base_box2">
+      <form action="">
+        <label for="name"><b>Nama</b></label><br>
+        <input type="text" name="name" id="name" size="170" /><br>
+
+        <label for="role"><b>Role</b></label><br>
+        <input type="text" name="role" id="role" size="170" /><br>
+        
+        <label for="availability"><b>Availability</b></label><br>
+        <input type="text" name="availability" id="availability" size="170" /><br>
+
+        <label for="age">Age</label><br>
+        <input type="text" name="age" id="age" size="170" /><br>
+
+        <label for="lokasi">Lokasi</label><br>
+        <input type="text" name="lokasi" id="lokasi" size="170" /><br>
+
+        <label for="years_exp">Years Experience</label><br>
+        <input type="text" name="years_exp" id="years_exp" size="170" /><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" size="170" /><br>
+        <br>
+        <input type="submit" value="SUBMIT" style="height:30px; width:1170px; background-color: green; color: white; padding: 5px;">
+      
+      </form>
+    </div>
+
+  </body>
+</html>

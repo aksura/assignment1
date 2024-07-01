@@ -1,0 +1,17 @@
+#kotak1{
+    background-color: blue;
+    position: absolute;
+    left: 40px;
+    padding: 10px;
+}
+
+#kotak2{
+    background-color: green;
+    position: relative;
+    left: 40px;
+    padding: 10px;
+}
+
+#pembungkus{
+    
+}
